@@ -9,11 +9,25 @@ You select a folder, review exactly what will happen, then run the operation as 
 
 ## Download
 
-[![Download TypeNest for macOS](https://img.shields.io/badge/Download-TypeNest%20for%20macOS-1f883d?style=for-the-badge&logo=apple)](https://github.com/Shixxx-Miyxxx/TypeNest/raw/main/dist/TypeNest-macOS-Release-clean.app.zip)
+[![Download TypeNest for macOS](https://img.shields.io/badge/Download-TypeNest%20for%20macOS-1f883d?style=for-the-badge&logo=apple)](https://github.com/Shixxx-Miyxxx/TypeNest/raw/main/dist/TypeNest-macOS-Release.dmg)
 
-- Direct package: `TypeNest-macOS-Release-clean.app.zip`
-- If macOS warns about an unidentified developer, right-click `TypeNest.app` and choose **Open** once.
+- Direct package: `TypeNest-macOS-Release.dmg`
+- Open the DMG and drag `TypeNest.app` into `Applications`.
 - Future tagged releases: [GitHub Releases](https://github.com/Shixxx-Miyxxx/TypeNest/releases)
+
+## First Launch (Gatekeeper)
+
+This build is currently not notarized, so macOS may block first launch after download.
+If you see a security warning, run:
+
+```bash
+xattr -dr com.apple.quarantine /Applications/TypeNest.app
+```
+
+Then open the app again.
+
+Alternative path:
+`System Settings > Privacy & Security > Open Anyway` for `TypeNest.app`.
 
 ## Why TypeNest
 

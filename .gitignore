@@ -5,4 +5,4 @@ build/
 xcuserdata/
 .swiftpm/
 dist/*
-!dist/TypeNest-macOS-Release-clean.app.zip
+!dist/TypeNest-macOS-Release.dmg
